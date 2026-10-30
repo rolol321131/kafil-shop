@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KaFil Shop</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#080b12;color:white;font-family:Arial,sans-serif}
+header{padding:25px 8%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #252b38}
+.logo{font-size:27px;font-weight:900}
+.k{color:#27a5ff}.f{color:#ff454f}
+nav a{color:white;text-decoration:none;margin-left:18px}
+.hero{text-align:center;padding:110px 20px}
+h1{font-size:clamp(45px,9vw,85px);margin:20px 0}
+p{color:#b8c2d3;line-height:1.7}
+button{background:#27a5ff;border:0;padding:15px 28px;border-radius:30px;font-weight:bold;font-size:15px}
+section{padding:65px 8%;text-align:center;border-top:1px solid #252b38}
+.cards{display:flex;gap:20px;justify-content:center;flex-wrap:wrap}
+.card{background:#151c2a;padding:25px;border-radius:18px;max-width:280px}
+footer{text-align:center;padding:30px;color:#8792a5}
+</style>
+</head>
+<body>
+<header>
+<div class="logo"><span class="k">K</span>a<span class="f">F</span>il Shop</div>
+<nav><a href="#onas">O nas</a><a href="#wizja">Wizja</a><a href="#kontakt">Kontakt</a></nav>
+</header>
+<div class="hero">
+<p>NOWA MARKA. WIELKIE POMYSŁY.</p>
+<h1>Odkrywaj <span class="k">coś</span><br><span class="f">nowego.</span></h1>
+<p>Witamy w KaFil Shop! Tworzymy markę pełną ciekawych pomysłów.</p>
+<button onclick="document.getElementById('onas').scrollIntoView({behavior:'smooth'})">POZNAJ NAS</button>
+</div>
+<section id="onas">
+<h2>Kim jesteśmy?</h2>
+<p>KaFil Shop to projekt tworzony przez Kacpra i Filipa.<br>Chcemy stworzyć wyjątkową markę i rozwijać ciekawe pomysły.</p>
+</section>
+<section id="wizja">
+<h2>Nasza wizja</h2>
+<div class="cards">
+<div class="card"><h3>Pomysły</h3><p>Szukamy rzeczy, które potrafią zaskoczyć.</p></div>
+<div class="card"><h3>Jakość</h3><p>Stawiamy na przemyślane wybory.</p></div>
+<div class="card"><h3>Rozwój</h3><p>Budujemy markę krok po kroku.</p></div>
+</div>
+</section>
+<section id="kontakt">
+<h2>Kontakt</h2>
+<p>Nasze dane kontaktowe pojawią się wkrótce.</p>
+</section>
+<footer>© 2026 KaFil Shop — projekt w przygotowaniu.</footer>
+</body>
+</html>
